@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LearningAssistence</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_myy">老虎福</string>
+    <string name="user">用户向导</string>
+    <drawable name="bkcolor">#039be5</drawable>
+    <string name="mytext">使用方法：在关闭网络的情况下，设置好开始时间和结束时间，然后退出，就行了。
+ 在你设置的时间内，如果你打开网络上网，它就会提醒你，要好好学习。关掉网络后，两秒钟，震动就会停止。注意：使用时请勿清除后台</string>
+</resources>

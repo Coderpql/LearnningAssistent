@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/personal_header"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="#00bfa5"
+                android:layout_height="300dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/bbb"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/icon"
+        android:textColor="#FFF"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:layout_centerHorizontal="true"
+        android:text="点击更多资料设置你的名片"
+        android:textColor="#FFF"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/school"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

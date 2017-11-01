@@ -1,0 +1,12 @@
+<litepal>
+
+    <dbname value="LA" />
+
+    <version value="6" />
+
+    <list>
+         <mapping class="com.learning.wow.learningassistence.db.Note" />
+         <mapping class="com.learning.wow.learningassistence.db.News" ></mapping>
+    </list>
+
+</litepal>

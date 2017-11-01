@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#e1f5fe"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/tool_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/as"
+        android:text="tool"/>
+
+    <ImageButton
+        android:id="@+id/time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/time"
+        android:text="tool"/>
+
+</LinearLayout>

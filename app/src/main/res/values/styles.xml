@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="my_theme01" parent="android:style/Theme.Dialog">
+        <!--   <item name="android:windowBackground">@drawable/my_bg</item>  -->
+        <item name="android:windowBackground">@drawable/second_bg</item>
+    </style>
+    <!-- 定义一个样式，继承android系统的对话框样式 android:style/Theme.Dialog -->
+    <style name="my_theme02" parent="android:style/Theme.Dialog">
+    <!--   <item name="android:windowBackground">@drawable/my_bg</item>  -->
+    <item name="android:windowBackground">@drawable/dialog11</item>
+    </style>
+    <style name="Theme.picker" parent="android:Theme.Holo.Dialog">
+        <item name="android:editTextStyle">@style/Widget.EditText.White</item>
+    </style>
+    <style name="Widget.EditText.White" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+</resources>
